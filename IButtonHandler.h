@@ -11,5 +11,5 @@
 
 class IButtonHandler {
 public:
-    virtual void handle_event(SDL_Event* event) = 0;
+    virtual void handle_event(const SDL_Event& event) = 0;
 };
